@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+    <style>
+        input.GoBack{
+                background-color: salmon;
+                color: white;
+                border-radius: 16px ;
+                padding: 8px;
+                padding-left: 18px;
+                padding-right: 18px;
+    
+                border: 3px rgb(255, 100, 82) solid;
+                
+        }
+        input.GoBack:hover {
+            background-color: rgb(245, 89, 71);
+            transform: scale(1.1);
+        }
+        input.reset:hover {
+            background-color: rgb(242, 62, 42);
+            transform: scale(1.1);
+        }
+        input.login:hover {
+            background-color: rgb(69, 211, 67);
+            transform: scale(1.1);
+        }
+        input.singin:hover {
+            background-color: rgb(64, 186, 211);
+            transform: scale(1.1);
+        }
+        .textbackbotton{
+            position: absolute;
+            top: 35rem;
+            color: rgb(245, 125, 125);
+            font-size: 14px;
+            text-shadow: rgb(255, 83, 83) 0.1em 0.1em 0.1em;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+    <center class="loginbox">
+    <h1 style=" text-shadow: rgb(247, 73, 73) 0.1em 0.01em 0.3em;">Login Website</h1>
+    <br>
+    <form action="receivelogin.php" method="post" target="_blank">
+        Enter username: <input type="text" id="user" name="user"  size="25"> <br><br>
+        Enter password: <input type="password" id="password" name="pass" size="25"><br><br>
+        
+       <input class="login" type="submit" id="send" name="send" value="เข้าระบบ">
+       
+       <input class="reset" type="reset" id="cancel" name="cancel" value="ยกเลิก">
+        <br><br>
+       <div class="textlogin" style="text-align: center;">เมื่อกรอกข้อมูลครบแล้ว กรุณากดปุ่มเพื่อเข้าสู่ระบบ!!!</div>
+    </form>
+    </center>
+    <br><hr><br>
+    <center class="loginbox">
+    <form action="member.html" method="post" target="_blank">
+        
+        <h1 style=" text-shadow: rgb(247, 73, 73) 0.1em 0.01em 0.3em;">Sing in</h1>
+        
+        <div class="textlogin" style="text-align: center;">click to me!</div>
+        <input class="singin" type="submit" id="submit" name="register" value="สมัครสมาชิก">
+
+    </form></center>
+    <form class="textbackbotton" action="main.html" method="post">
+        <input class="GoBack" type="submit" id="back" name="back" value="ย้อนกลับ" >
+    </form>
+</body>
+</html>

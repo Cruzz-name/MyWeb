@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+    <style>
+        input.GoBack{
+                background-color: salmon;
+                color: white;
+                border-radius: 16px ;
+                padding: 8px;
+                padding-left: 18px;
+                padding-right: 18px;
+    
+                border: 3px rgb(255, 100, 82) solid;
+                
+            }
+        .textbackbotton{
+            text-align: left;
+            margin-top: 1rem;
+            top: 43rem;
+            color: rgb(245, 125, 125);
+            font-size: 14px;
+            text-shadow: rgb(255, 83, 83) 0.1em 0.1em 0.1em;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center class="singinbox">
+    <h1 style=" text-shadow: rgb(247, 73, 73) 0.1em 0.01em 0.3em;">สมัครสมาชิก</h1>
+    <form action="login.html" method="post">
+        <table>
+            <tr>
+                <td>Name :</td><td><input type="text" id="name" name="fullname" size="25"></td>
+            </tr>
+            <tr>
+                <td>Birthday :</td><td><input type="date" id="day" name="dd" size="25">
+            </tr>
+            <tr>
+                <td>Upload your file :</td><td><input type="file" id="file" name="file" value="รูป"></td>
+            </tr>
+            <tr>
+                <td>Username :</td><td><input type="text" id="name" name="username" size="25"></td>
+            </tr>
+            <tr>
+                <td>Password :</td><td><input type="password" id="pass" name="password" size="25"></td>
+            </tr>
+            <tr>
+                <td>Confirm password :</td><td><input type="password" id="pass" name="password" size="25"></td>
+            </tr>
+            
+        </table><br>
+        
+            <input class="login" type="submit" id="submit" name="register" value="สมัครสมาชิก">
+            <input class="reset" type="reset" id="cancel" name="cancel" value="ยกเลิก">
+        </form><br>
+    </form></center>
+    <form class="textbackbotton" action="login.html" method="post">
+        <input class="GoBack" type="submit" id="back" name="back" value="ย้อนกลับ" >
+    </form>
+    
+</body>
+</html>

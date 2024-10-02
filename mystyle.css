@@ -1,0 +1,165 @@
+body{
+    background-color: rgb(255, 228, 225);
+    font-family: 'Courier New', Courier, monospace;
+}
+p,h1,h2,h3,h4,form{
+    color: white;
+}
+.h1_01{
+    color: salmon;
+}
+.box {
+    
+    height: auto;
+    width: auto;
+    padding-bottom: 1px;
+    
+    
+    background-color: salmon;
+    box-sizing: border-box;
+    border-radius: 16px;
+
+}
+.loginbox {
+    
+    height: auto;
+    width: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: salmon;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+.singinbox {
+    
+    height: auto;
+    width: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: salmon;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+.wellcombox {
+    color: rgb(254, 229, 226);
+    height: 770px;
+    width: 99.9;
+    background-color: none;
+    box-sizing: border-box;
+    border: 5px salmon solid;
+    border-radius: 16px;
+}
+.textlogin {
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    text-shadow: rgb(255, 83, 83) 0.1em 0.01em 0.3em;
+}
+input.GoBack{
+    background-color: salmon;
+    color: white;
+    border-radius: 16px ;
+    padding: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+
+    border: 3px rgb(255, 100, 82) solid;
+    
+}
+input.GoBack:hover {
+    background-color: rgb(245, 89, 71);
+    transform: scale(1.1);
+}
+input.GoToWeb{
+    background-color: salmon;
+    color: white;
+    border-radius: 16px ;
+    padding: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+
+    border: 3px rgb(255, 100, 82) solid;
+    
+}
+input.login{
+    background-color: rgb(107, 214, 105);
+    color: white;
+    border-radius: 16px ;
+    padding: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+
+    border: 2px rgb(18, 171, 69) solid;
+}
+input.login:hover{
+    background-color: rgb(59, 189, 57);
+    transform: scale(1.1);
+    border: 2px rgb(68, 197, 111) solid;
+}
+input.reset{
+    background-color: rgb(248, 75, 56);
+    color: white ;
+    border-radius: 16px ;
+    padding: 8px;
+    padding-left: 23px;
+    padding-right: 23px;
+
+    border: 3px rgb(225, 62, 44) solid;
+}
+input.reset:hover{
+    background-color: rgb(234, 59, 39);
+    transform: scale(1.1);
+
+    border: 3px rgb(224, 103, 89) solid;
+}
+input.singin{
+    background-color: rgb(105, 196, 214);
+    color: white;
+    border-radius: 16px ;
+    padding: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+
+    border: 2px rgb(18, 146, 171) solid;
+}
+
+.textWellcome {
+    position: absolute;
+    text-align: left;
+    left: 30px;
+    color: salmon;
+    font-size: 70px;
+    text-shadow: rgb(105, 71, 71) 0.01em 0.01em 0.05em;
+}
+.textwelcomephp {
+    position: absolute;
+    text-align: left;
+    left: 100px;
+    top: 110px;
+    color: salmon;
+    font-size: 24px;
+}
+.textshopbotton{
+    position: absolute;
+    text-align: left;
+    left: 100px;
+    top: 220px;
+    color: rgb(245, 125, 125);
+    font-size: 14px;
+    text-shadow: rgb(255, 83, 83) 0.1em 0.1em 0.1em;
+}
+.textshopbotton:hover {
+    transform: scale(1.1);
+}
+table,tr {
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 800px;
+    background: salmon;
+    margin: 80px; /* เพิ่มระยะห่างรอบๆ ตาราง */
+    border-radius: 8px; /* เพิ่มมุมมน */
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+/* prodic list page */
